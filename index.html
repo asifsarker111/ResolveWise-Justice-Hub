@@ -59,131 +59,108 @@
   <body>
       <!-- header -->
       <header>
-        <!-- nav section -->
-        <section class="py-8">
-          <nav>
-            <div class="navbar bg-base-100">
-              <div class="navbar-start">
-                <div class="dropdown">
-                  <div
-                    tabindex="0"
-                    role="button"
-                    class="btn btn-ghost lg:hidden"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M4 6h16M4 12h8m-8 6h16"
-                      />
-                    </svg>
-                  </div>
-                  <ul
-                    tabindex="0"
-                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
-                  >
-                    <li><a href="#">Home</a></li>
-                  <ul>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Cases</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                  </ul>
+         <!-- nav section -->
+      <section class="py-8">
+        <nav>
+          <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
                 </div>
-                <a class="btn btn-ghost text-xl">
-                  <img src="assets/images/logo2.png" alt="" />
-                </a>
-              </div>
-              <div class="navbar-center hidden lg:flex font-poppins">
-                <ul class="menu menu-horizontal px-1">
-                  <li><a href="#">Home<i class="fa-solid fa-chevron-right"></i></a></li>
+                <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a href="#">Home</a></li>
                   <li>
-                    <details>
-                      <summary>Services</summary>
-                      
-                    </details>
+                    <a href="#">Service</a>
                   </li>
                   <li>
-                    <details>
-                      <summary>Cases</summary>
-                      
-                    </details>
+                    <a href="#">Cases</a>
                   </li>
                   <li>
-                    <details>
-                      <summary>Blog</summary>
-                      
-                    </details>
+                    <a href="#">Blog</a>
                   </li>
                   <li>
-                    <details>
-                      <summary>Contact us</summary>
-                    </details>
+                    <a href="#">Contact Us</a>
                   </li>
                 </ul>
               </div>
-              <div class="navbar-end font-poppins text-lg">
-                <a class="btn bg-primary text-white max-w-52">Free Consultation</a>
-              </div>
+              <a class="btn btn-ghost text-xl">
+                <img src="assets/images/logo2.png" alt="" />
+              </a>
             </div>
-          </nav>
-        </section>
+            <div class="navbar-center hidden lg:flex font-poppins">
+              <ul class="menu menu-horizontal px-1">
+                <li><a href="#">Home<i class="fa-solid fa-chevron-right"></i></a></li>
+                <li>
+                  <details>
+                    <summary>Services</summary>
+                  </details>
+                </li>
+                <li>
+                  <details>
+                    <summary>Cases</summary>
+                  </details>
+                </li>
+                <li>
+                  <details>
+                    <summary>Blog</summary>
+                  </details>
+                </li>
+                <li>
+                  <details>
+                    <summary>Contact us</summary>
+                  </details>
+                </li>
+              </ul>
+            </div>
+            <div class="navbar-end font-poppins text-lg">
+              <a class="btn bg-primary text-white max-w-52">Free Consultation</a>
+            </div>
+          </div>
+        </nav>
+      </section>
 
       <!-- hero section -->
       <section class="container mx-auto px-4 sm:px-8 lg:px-12">
-        <div
-          class="hero relative w-full max-w-[1170px] lg:h-[450px] mx-auto overflow-hidden"
-        >
+        <div class="hero relative w-full max-w-[1170px] lg:h-[450px] mx-auto overflow-hidden">
           <div
-            class="hero-overlay bg-opacity-0"
+            class="hero-overlay"
             style="
               background-image: url(assets/images/banner.png);
               background-size: cover;
               background-position: center;
             "
           ></div>
-
+      
           <!-- hero content -->
-          <div
-            class="max-w-lg h-full bg-transparent mx-auto flex flex-col justify-center items-center p-4 md:p-6 lg:p-8"
-          >
-            <div class="border-2 border-transparent p-6 ">
-              <h1
-                class="font-EB-Garamond mb-5 text-2xl md:text-4xl lg:text-5xl font-extrabold text-center text-white"
-              >
+          <div class="max-w-lg h-full bg-transparent mx-auto flex flex-col justify-center items-center p-4 md:p-6 lg:p-8">
+            <div class="border-2 border-transparent p-6">
+              <h1 class="font-EB-Garamond mb-5 text-2xl md:text-4xl lg:text-5xl font-extrabold text-center text-white">
                 We Provide Effective
                 <br />
                 Legal Solutions
               </h1>
-              <p
-                class="font-poppins text-gray-300 mb-5 text-center text-base"
-              >
-              Turning challenges into solutions with clarity and care—helping you move forward with confidence.
+              <p class="font-poppins text-gray-300 mb-5 text-center text-base">
+                Turning challenges into solutions with clarity and care—helping you move forward with confidence.
               </p>
-              <div class="flex flex-row  gap-2 justify-center">
+              <div class="flex flex-row gap-2 justify-center">
                 <input
                   type="text"
                   placeholder="Search your services"
                   class="input join-item w-full"
+                  aria-label="Search your services"
                 />
-                <button class="p-4 btn bg-primary text-white border-none join-item">
+                <button class="p-4 btn bg-primary text-white border-none join-item" aria-label="Search button">
                   Search
                 </button>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> 
     </header>
-
-      
 
     <main>
       <!-- legal section -->
@@ -305,7 +282,7 @@
           </div>
 
           <!-- Card 5 -->
-          <div class="flex flex-col items-center p-6 border-b sm:border-b-0 md:boreder-b-0 lg:border-b-0 sm:border-r lg:border-r border-gray-300">
+          <div class="flex flex-col items-center p-6 border-b sm:border-b-0 md:border-b-0 lg:border-b-0 sm:border-r lg:border-r border-gray-300">
             <img
               src="assets/images/divorce.png"
               alt="Divorce Law Icon"
@@ -357,61 +334,49 @@
       <!-- client section -->
       <section class="container mx-auto px-4 sm:px-8 lg:px-12 my-24">
         <div class="text-center">
-          <h3 class="font--EB-Garamond font-extrabold text-4xl pb-10">
-            What Our Client Say
-          </h3>
-          <p class="font-poppins text-base pb-20 lg:max-w-3xl mx-auto">
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old. Richard McClintock, a Latin professor
-            at Hampden-Sydney College in Virginia, looked up one of the more
-            obscure Latin words, consectetur.
-          </p>
+            <h3 class="font--EB-Garamond font-extrabold text-4xl pb-10">
+                What Our Clients Say
+            </h3>
+            <p class="font-poppins text-base pb-20 lg:max-w-3xl mx-auto">
+                Contrary to popular belief, Lorem Ipsum is not simply random text.
+                It has roots in a piece of classical Latin literature from 45 BC,
+                making it over 2000 years old. Richard McClintock, a Latin professor
+                at Hampden-Sydney College in Virginia, looked up one of the more
+                obscure Latin words, consectetur.
+            </p>
         </div>
-
+    
         <!-- hero -->
-        <div
-          class="hero relative w-full max-w-[1170px] lg:h-[450px] mx-auto "
-        >
-        <div
-          class="hero-overlay bg-opacity-0"
-          style="
-            background-image: url(assets/images/slider-1.jpg);
-            background-size: cover;
-            background-position: center;
-          "
-        ></div>
+        <div class="relative w-full max-w-[1170px] mx-auto overflow-hidden">
+          <div class="hero-overlay bg-opacity-50 h-64 sm:h-72 md:h-96" style="
+              background-image: url(assets/images/slider-1.jpg);
+              background-size: cover;
+              background-position: center;
+          "></div>
           <!-- hero content -->
-          <div
-            class="absolute inset-0 flex flex-col justify-center items-center p-4 md:p-6 lg:p-8 z-10">
-          
-            <div class="border-2 border-transparent p-6 w-full  max-w-lg h-full bg-transparent mx-auto flex flex-col justify-center items-center md:p-6 lg:p-8">
-              <h1
-                class="font-EB-Garamond mb-5 text-3xl md:text-4xl lg:text-5xl font-extrabold text-center text-white"
-              >
-                <div class="avatar mb-3">
-                  <div
-                    class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2"
-                  >
-                    <img src="assets/images/image 1.png" />
-                  </div>
-                </div>
-
-                <div>
-                  Asif Sarker
-                <br />
-                Web Developer
-              </h1>
-              <p
-                class="font-poppins text-[#d1d5db] mb-5 text-center text-base md:text-lg lg:text-xl"
-              >
-              Explore the journeys of our clients—witness how we’ve turned obstacles into achievements with unwavering support.
-              </p>
-                </div>
-            </div>
+          <div class="absolute inset-0 flex flex-col justify-center items-center p-4 md:p-6 lg:p-8 z-10 h-full">
+              <div class="border-2 border-transparent p-4 w-full max-w-lg bg-transparent mx-auto flex flex-col justify-center items-center md:p-6 lg:p-8">
+                  <h1 class="font-EB-Garamond mb-5 text-3xl md:text-4xl lg:text-5xl font-extrabold text-center text-white">
+                      <div class="avatar mb-3">
+                          <div class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                              <img src="assets/images/image 1.png" alt="Asif Sarker's Avatar" />
+                          </div>
+                      </div>
+                      <div>
+                          Asif Sarker
+                          <br />
+                          Web Developer
+                      </div>
+                  </h1>
+                  <p class="font-poppins text-[#d1d5db] mb-5 text-center text-base md:text-lg lg:text-xl">
+                      Explore the journeys of our clients—witness how we’ve turned obstacles into achievements with unwavering support.
+                  </p>
+              </div>
           </div>
         </div>
-      </section>
+
+    </section>
+    
 
       <!-- faqs section -->
       <section class="container mx-auto px-4 sm:px-8 lg:px-12 my-24">
